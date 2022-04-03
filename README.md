@@ -15,7 +15,7 @@
 4. Install **packages** that run the project.
  > npm install
 
-5. In the project root folder, create **config.env** file & include the below variables
+5. In the project **server directory**, create **config.env** file & include the below variables
  > NOVE_ENV: and set it initially to **developmet**
  
  > PORT: any port (5000 for example)
