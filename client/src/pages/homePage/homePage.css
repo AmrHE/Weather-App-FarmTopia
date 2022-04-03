@@ -1,0 +1,152 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url('https://raw.githubusercontent.com/fireclint/weather-app-react/main/src/assets/sunset.jpg')
+		no-repeat fixed center/cover;
+}
+
+.weather {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #fff;
+}
+
+.weather:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.weather p {
+	font-size: 1.5rem;
+}
+
+.weather h1 {
+	font-size: 3rem;
+}
+
+.weather__search {
+	text-align: center;
+	padding: 1rem;
+}
+
+.weather__search-input {
+	padding: 0.7rem 1.5rem;
+	font-size: 1.2rem;
+	border-radius: 25px;
+	border: 1px solid rgba(255, 255, 255, 0.8);
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+}
+
+::placeholder {
+	color: #fff;
+}
+
+.weather__search-btn {
+	cursor: pointer;
+	padding: 1rem;
+	margin-left: 1rem;
+	border-radius: 25px;
+}
+
+.add-icon {
+	margin-left: 1.5rem;
+	margin-top: 0.5rem;
+	font-size: 2rem;
+}
+
+.add-icon svg {
+	color: #fff;
+}
+
+.weather__container {
+	max-width: 700px;
+	height: auto;
+	min-height: 320px;
+	margin: auto;
+	padding: 0 1rem;
+	position: relative;
+	top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 0;
+}
+
+.weather__container-top {
+	top: -10;
+	width: 100%;
+	margin: 1rem auto;
+	margin-top: 0;
+	padding-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.weather__container-bottom {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	width: 100%;
+	margin: 1rem auto;
+	padding: 1rem;
+	border-radius: 12px;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.weather__add-btn {
+	cursor: pointer;
+	padding: 1rem;
+	margin-left: 1rem;
+	border-radius: 25px;
+	width: auto;
+	align-self: center;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.weather__saved-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+table {
+	color: #fff;
+}
+
+table {
+	width: 99.5%;
+	height: auto;
+	border-collapse: collapse;
+}
+
+th {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 15px;
+	font-size: 1.2rem;
+}
+
+td {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 5px;
+}
+
+.icon {
+	font-size: 1.1rem;
+}
