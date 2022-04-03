@@ -29,7 +29,7 @@
  > npm run dev
 
 7. Test if the project is running correctly
- > * Using postman, MongoDB Compass, MongoDB Cloud, etc...*
+ > * The project will be running on port 5000 OR whatever the terminal says.*
 
 
 
@@ -51,7 +51,7 @@
  
  
 6. Test if the project is running correctly
- > * Using UI, console, etc...*
+ > * The project will be running on port 3000 OR whatever the terminal says.*
 
 
 **AmrHE.**
