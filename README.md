@@ -6,14 +6,14 @@
 1. Make sure you have the latest **npm** set on your current machine.
 
 2. Clone the repo in a new folder using the following command
-`git clone https://github.com/AmrHE/Weather-App-FarmTopia.git
+`git clone https://github.com/AmrHE/Weather-App-FarmTopia.git`
 
 3.Navigate to the project directory from your new created folder
 `cd Weather-App-FarmTopia/server`
  
  
 4. Install **packages** that run the project.
-`npm install
+`npm install`
 
 5. In the project **server directory**, create **config.env** file & include the below variables
 `NOVE_ENV: and set it initially to **developmet**`
@@ -26,7 +26,7 @@
  
  
 6. Run the project in development mode using the following command
-`npm run de`v
+`npm run dev`
 
 7. Test if the project is running correctly
 `The project will be running on port 5000 OR whatever the terminal says.`
