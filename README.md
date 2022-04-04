@@ -9,8 +9,7 @@
 `git clone https://github.com/AmrHE/Weather-App-FarmTopia.git`
 
 3.Navigate to the project directory from your new created folder
-`cd Weather-App-FarmTopia/server`
- 
+`cd Weather-App-FarmTopia/server` 
  
 4. Install **packages** that run the project.
 `npm install`
