@@ -35,7 +35,7 @@
 ### Front-End Quicky Setup:
 #### Open the command line/Terminal and follow the following steps:
 
-1.Navigate to the client directory from your new created folder
+1. Navigate to the client directory from your new created folder
 `cd ../client`
 
 2. Install **packages** that run the project.
